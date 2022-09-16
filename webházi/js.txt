@@ -1,0 +1,14 @@
+let megoldasGomb = document.querySelector('.megoldasGomb');
+let megoldasSzoveg = document.querySelector('.megoldasSzoveg');
+let segitsegGomb = document.querySelector('.segitsegGomb');
+let segitsegSzoveg = document.querySelector('.segitsegSzoveg');
+
+megoldasGomb.addEventListener("click",()=> {
+    megoldasGomb.style.display = 'none';
+    megoldasSzoveg.style.textShadow = "0px 0px 0px black";
+
+});
+
+segitsegGomb.addEventListener("click",() => {
+    segitsegSzoveg.style.visibility = "visible";
+})
